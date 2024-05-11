@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-	width: min(var(--max-width), 100%);
+	width: min( 100%);
 	margin-inline: auto;
 }
 
@@ -111,6 +111,7 @@ a:hover {
 	background-image: url("./../assets/baner/baner.png");
 	height: 604px;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .main__slider-conten {
