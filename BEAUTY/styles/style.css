@@ -9,7 +9,6 @@
 	--font-xxl: 24px;
 	--btn-bg-color: #f13c6e;
 	--max-width: 1950px;
-	--padding-side: 15px;
 	--products-carts-width: 255px;
 	--subscribe-carts-width: 540px;
 }
@@ -22,7 +21,7 @@ body {
 }
 
 .container {
-	width: min(var(--max-width), 100% - (var(--padding-side) * 2));
+	width: min(var(--max-width), 100%);
 	margin-inline: auto;
 }
 
